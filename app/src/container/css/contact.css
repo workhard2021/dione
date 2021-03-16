@@ -1,0 +1,99 @@
+.contact{
+	 position:relative;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+	 margin:auto;
+	 transition:all 0.5s;
+	 color:white;
+	 
+}
+.contact a
+{
+	text-decoration:none;
+}
+.contact a:hover
+{
+	opacity:0.8;
+}
+.contact h2{
+	 font-size:25px;
+	 width:100%;
+	 text-align:center;
+
+}
+.contact .dot{
+	position:relative;
+	margin:auto;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin:10px auto;
+}
+.contact .dot .item{
+	 position:relative;
+	 width:350px;
+	 margin:10px auto;
+	 text-align:center;
+}
+.contact #contact_link{
+	background-color:rgb(126, 235, 220);
+	width:400px;
+	 padding:8px 1px;
+	 transition:all 0.5s;
+}
+
+
+.contact .item .icone {
+	 position:relative;
+	 text-align:center;
+	 width:50%;
+	 height:50px;
+	 margin:auto;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+}
+.contact .item .icone a{
+	 display:inline-block; 
+	position: relative;
+	 width:20%;
+	 color:rgb(174, 174, 175);
+	 font-size:2em;
+}
+.contact .item h4{
+	 text-align:center;
+	 font-size:17px;
+	 width:100%;
+	 position:relative;
+	 margin:5px auto;
+}
+.contact .item ul{
+	margin:0px auto;
+	padding:0px;
+	list-style-type:none;
+}
+.contact_toggle{
+ position: absolute;
+ display: inline-block;
+ background:rgb(160, 160, 175);
+ width:100%;
+ left:0px;
+ top:35px;
+ padding:20px auto;
+ transition:all 0.5s;
+}
+.contact_toggle div{
+	cursor:pointer;
+}
+.contact_toggle div span{
+	 font-size:1em;
+	 letter-spacing:1px;
+}
+
+

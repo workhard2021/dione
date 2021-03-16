@@ -1,0 +1,16 @@
+.pagination{
+    position:relative;
+    text-align:right;
+    padding-right:30px;
+    width:90%;
+    font-size:17px;
+    margin:auto;
+}
+.pagination button{
+	 font-size:1.2em;
+	 padding:2px 3px;
+	 cursor:pointer;
+}
+.pagination button:hover{
+	opacity:0.8;
+}

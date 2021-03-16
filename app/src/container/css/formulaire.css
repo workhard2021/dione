@@ -1,0 +1,231 @@
+.formulaire{
+	 position:relative;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 flex-direction:column;
+	 flex-wrap:wrap;
+	 margin:20px auto;	
+	 transition:all 0.5s;
+	 width:500px;
+	 background-color:white;
+	 box-shadow: 0px 0px 10px rgb(58, 57, 57);
+	 border-radius:5px;
+}
+
+.formulaire form{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    border-radius:5px;	
+	color:black;
+	width:100%;
+}
+.formulaire  .item {
+	 width:80%;
+	 position: relative;
+
+}
+
+.formulaire .btn{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+	margin:10px auto;
+}
+.formulaire  .item input{
+	font-size:1em;
+	display: inline-block;
+	width:100%;
+	height:25px;
+	outline:none;
+	position: relative;
+	margin:1px auto;
+	padding-left:3px;
+ }
+ .formulaire  .item label{
+	 font-size:1.1em;
+	 margin:1px auto;
+ }
+ .formulaire  .item #image{
+	 display:none;
+ }
+
+.formulaire h3{
+	 color:black;
+	 width:100%;
+	 text-align:center;
+}
+.formulaire .message_form{
+	font-size:1em;
+	color:rgb(228, 91, 91);
+	width:80%;
+	text-align:center;
+	background-color: rgb(215, 230, 199);
+	border-radius:4px;
+	padding:3px;
+}
+.formulaire .message_image{
+	 position:absolute;
+	 left:135px;
+	 top:11px;
+	 width:100px;
+	 height:20px;
+	 overflow:hidden;
+	 font-size:1em;
+}
+.formulaire #image_label{
+	background-color:rgb(228, 224, 224);
+	cursor:pointer;
+	border-radius:5px;
+	display:inline-block;
+	font-size:1.1em;
+	margin:10px 0px;
+	padding:3px;
+}
+
+.formulaire  .item textarea{
+	 width:100%;
+	 height:auto;
+	 font-size:1em;
+	 outline:none;
+	 padding-left:5px;
+}
+.formulaire  .item button{
+	 font-size:1.1em;
+	 width:200px;
+	 cursor:pointer;
+	 margin:10px auto;
+	 padding:4px 0px;
+	 opacity:0.8;
+}
+
+.formulaire  .item button:hover{
+	opacity:1;
+}
+.formulaire .item .password-oublier{
+	width:80%;
+	position:relative;
+	text-align:center;
+	margin:10px auto;
+}
+.formulaire .item .password-oublier a{
+	 text-decoration:none;
+	 color:black;
+	 display:inline-block;
+	 width:100%;
+	 font-size:1.1em;
+	 opacity:0.8;
+
+}
+.formulaire .item .password-oublier a:hover{
+	opacity:1;
+}
+
+/* afterSendCommande*/
+.afterSendCommande {
+	position:relative;
+	display:block;
+	margin:40px auto;
+	width:700px;
+	height:300px;
+	border-radius:10px;
+    box-shadow:0px 0px 10px solid black;
+}
+.afterSendCommande p{
+	 font-size:1.1em;
+	 color:yellowgreen;
+	 position:absolute;
+	 top:30%;
+	 z-index:2;
+	 text-align:center;
+	 width:100%;
+}
+.afterSendCommande .icone{
+	 position:absolute;
+	 top:20%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 font-size:50px;
+	 z-index:999;
+	 color:yellowgreen;
+
+}
+.afterSendCommande span{
+	 position:absolute;
+	 top:80%;
+	 left:0%;
+	 transform:translate(0%,-80%);
+     z-index:999;
+     color:white;
+     width:100%;
+     font-size:20px;
+     text-align:center;
+}
+
+.afterSendCommande .image{
+	 position:absolute;
+	 top:0%;
+	 left:0%;
+	 transform:translate(0%,0%);
+	 width:100%;
+	 height:100%;
+}
+.afterSendCommande .image img{
+	position:relative;
+	width:100%;
+	height:100%;
+    border-radius:10px;
+}
+#description_site select {
+	 position:absolute;
+	 background:#c2cfcc;
+	 left:150px;
+	 top:-2px;
+	 outline:none;
+	 font-size:1em;
+	 transform:translate(0%,0%);
+}
+
+#description_site .item_site{
+ padding:5px 0px;
+}
+
+.inValide{
+	 color:rgb(243, 116, 116);
+	 text-align:center;
+}
+.success{
+	 color:yellowgreen;
+	 text-align:center;
+	 font-size:1em;
+}
+.sucess_search{
+	 color:black;
+	 text-align:center;
+	 font-size:1.2em;
+	 font-style:italic;
+}
+.btn_home_formulaire{
+	position:absolute;
+	left:30px;
+	top:15px;
+	padding:5px;
+	background:grey;
+	font-size:1.2em;
+	cursor:pointer;
+	border-radius:10px;
+	z-index:2;
+}
+
+@media  screen and (max-width:600px){
+	 .formulaire {
+		  width:350px;
+	  }
+	  .afterSendCommande{
+		width:350px;
+	}
+}

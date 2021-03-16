@@ -1,0 +1,309 @@
+.menu_container{
+	 position:relative;
+	 display:flex;
+	 justify-content:space-evenly;
+	 align-items:center;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+	 top:auto;
+	 transition:all 0.5s;
+	 color:white;
+	 width:95%;
+	 margin:auto;
+
+}
+
+.menu_container .btn_home{
+	 position:absolute;
+	 left:0px;
+	 top:20px;
+	 padding:5px;
+	 background:grey;
+	 font-size:20px;
+	 cursor:pointer;
+	 border-radius:10px;
+	 z-index:9;
+
+}
+.menu_container h2{
+	 position:relative;
+	 font-size:25px;
+	 width:100%;
+	 text-align:center;
+}
+.menu_container .dot{
+	position:relative;
+	margin:10px auto;
+	width:240px;
+	justify-content:center;
+	align-items:center;
+    flex-direction:column;
+    background:#00664b;
+    overflow:hidden;
+    border-radius:5px;
+	flex-shrink:1;
+}
+.menu_container .image{
+	 position:relative;
+	 width:120px;
+	 height:120px;
+	 margin:20px auto;
+}
+.menu_container .image img{
+	 position:relative;
+	 width:100%;
+	 height:100%;
+	 border-radius:50%;
+}
+.menu_container h4{
+	margin:5px auto;
+	text-align:center;
+	font-size:1em;
+}
+.menu_container .comment{
+	 font-size:0.9em;
+	 padding:2px;
+	 text-align:center;
+	 height:50px;
+	 overflow:hidden;
+	 box-sizing:border-box;
+}
+.menu_container .prix{
+     font-size:1.1em;
+	 color:rgb(173, 189, 33);
+	 text-align:center;
+	 height:auto;
+	 overflow:hidden;
+}
+.menu_container .btn{
+	 position:relative;
+	 width:100%;
+	 margin:20px auto;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+     flex-direction:row;
+}
+.menu_container .btn input{
+	width:23px;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	outline: none;
+	margin:auto;
+}
+.menu_container .btn div
+{    width:30px; 
+	 background:#001a13;
+	 margin:auto;
+	 font-size:19px;
+	 text-align:center;
+	 cursor:pointer;
+}
+.menu_container .like,
+.menu_container .count{
+	 text-align:center;
+	 font-size:25px; 
+	 margin:auto;
+	 margin-bottom:5px;
+}
+.menu_container .count{
+	font-size:18px;
+}
+
+.menu_container .like span{
+	 cursor:pointer;
+}
+.menu_container ._like{
+	 color:black;
+}
+.menu_container ._dislike{
+	 color:white;
+}
+.menu_container .btn_add{
+	 margin:auto;
+	 text-align:center;
+	 width:67px;
+	 border-radius:5px;
+	 font-size:1.2em;
+	 background:grey;
+	 cursor:pointer;
+}
+/* @media screen and (max-width:600px){
+	 .menu_container .image{
+		 position:relative;
+		 width:130px;
+		 height:130px;
+		 margin:10px auto;
+    }
+    .menu_container{
+	 justify-content:center;
+	 align-items:center;
+   }
+   .menu_container .dot{
+	margin:10px auto;
+	width:250px;
+  }
+}
+
+
+.menu_container{
+	 position:relative;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+	 top:auto;
+	 transition:all 0.5s;
+	 color:white;
+	 width:90%;
+	 margin:auto;
+}
+.menu_container .btn_home{
+	position:absolute;
+	left:30px;
+	top:20px;
+	padding:5px;
+	background:grey;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:10px;
+	z-index:999;
+
+}
+.menu_container h2{
+	 position:relative;
+	 font-size:25px;
+	 width:100%;
+	 text-align:center;
+}
+.menu_container .dot{
+	position:relative;
+	margin:10px auto;
+	width:230px;
+	justify-content:center;
+	align-items:center;
+    flex-direction:column;
+    background:#00664b;
+    overflow:hidden;
+    border-radius:5px;
+
+}
+.menu_container .image{
+	 position:relative;
+	 width:100px;
+	 height:100px;
+	 margin:20px auto;
+}
+.menu_container .image img{
+	 position:relative;
+	 width:100%;
+	 height:100%;
+	 border-radius:50%;
+}
+.menu_container h4{
+	margin:5px auto;
+	text-align:center;
+	font-size:1em;
+}
+.menu_container .comment{
+	 font-size:1em;
+	 padding:2px;
+	 text-align:center;
+	 height:50px;
+	 overflow:hidden;
+	 box-sizing:border-box;
+}
+.menu_container .prix{
+     font-size:1.1em;
+	 color:rgb(173, 189, 33);
+	 text-align:center;
+	 height:auto;
+	 overflow:hidden;
+}
+.menu_container .btn{
+	 position:relative;
+	 width:100%;
+	 margin:20px auto;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+     flex-direction:row;
+}
+.menu_container .btn input{
+	width:23px;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	outline: none;
+	margin:auto;
+}
+.menu_container .btn div
+{    width:30px; 
+	 background:#001a13;
+	 margin:auto;
+	 text-align:center;
+	 cursor:pointer;
+}
+.menu_container .like,
+.menu_container .count{
+	 text-align:center;
+	 font-size:1.5em; 
+	 margin:auto;
+	 margin-bottom:5px;
+}
+.menu_container .count{
+	font-size:1.2em;
+}
+
+.menu_container .like span{
+	 cursor:pointer;
+}
+.menu_container ._like{
+	 color:black;
+}
+.menu_container ._dislike{
+	 color:white;
+}
+.menu_container .btn_add{
+	 margin:auto;
+	 text-align:center;
+	 width:67px;
+	 border-radius:5px;
+	 font-size:1.2em;
+	 background:grey;
+	 cursor:pointer;
+}
+@media screen and (max-width:600px){
+	 .menu_container .image{
+		 position:relative;
+		 width:130px;
+		 height:130px;
+		 margin:5px auto;
+    }
+    .menu_container{
+	 justify-content:center;
+	 align-items:center;
+   }
+   .menu_container .dot{
+	margin:5px auto;
+	 width:260px;
+  }
+  .menu_container .count{
+	font-size:2em; 
+	margin:auto;
+ }
+  .menu_container .count{
+   font-size:1.8em;
+ }
+ .menu_container .prix{
+	font-size:1.2em;
+}
+.menu_container .comment{
+	font-size:1.1em;
+}
+
+} */
+
+

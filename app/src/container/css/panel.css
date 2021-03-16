@@ -1,0 +1,53 @@
+#panel{
+     position: relative;
+     width:100%;
+     margin:auto;
+     box-sizing:border-box;
+     padding-top:20px;
+     padding-bottom:20px;
+}
+#panel-item{
+    background-color:white; 
+    border-radius:2px;
+    max-width:500px;
+    margin:auto;
+    box-sizing:border-box;
+}
+#panel-administrateur{
+     font-size:1.2em;
+     text-align:center;
+     width:100%;
+     padding:20px auto;
+     box-sizing:border-box;
+     color:black;
+}
+#panel #item{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     flex-direction:row;
+     flex-wrap:wrap;
+     margin:20px auto;
+}
+#panel #item a{
+     color:black;
+     background-color:gainsboro;
+     display: inline-block;
+     text-decoration:none;
+     width:200px;
+     padding:8px 5px;
+     font-family: italic;
+     text-align:center;
+     box-shadow:0px 0px 5px gray;
+     border-radius:8px;
+     margin:10px auto;
+     opacity:0.8;
+}
+#panel #item a:hover{
+      opacity:1;
+}
+@media screen and (max-width:600px){
+     #panel-item{
+         width:350px;
+    }
+ }
